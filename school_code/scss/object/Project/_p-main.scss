@@ -1,0 +1,1091 @@
+//--------------------- 「夏期限定」特別講習スタート ----------------------//
+.p-main__coure-container {
+    width: 100%;
+    text-align: center;
+}
+.p-main__cource-container__curriculum {
+    font-size: 30px;
+    margin-top: 80px;
+}
+.p-main__cource-container__section {
+    width: 100%;
+}
+.p-main__cource-container__section__grid {
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+}
+.p-main__cource-container__section__grid__week {
+    background-color: #6D6D6D;
+    height: 40px;
+    vertical-align: middle;
+}
+.p-main__cource-container__section__grid__week__tx > img {
+    padding-top: 13px;
+}
+.p-main__cource-container__section__grid__text {
+    height: 120px;
+}
+.p-main__cource-container__section__grid__humanties {
+    width: 146px;
+    text-align: left;
+}
+.p-main__cource-container__section__grid__humanties > img {
+    padding: 18px 0 0 18px;
+}
+.p-main__cource-container__section__grid__science {
+    width: 146px;
+    text-align: left;
+}
+.p-main__cource-container__section__grid__science > img {
+    padding: 18px 0 0 21px;
+}
+.p-main__cource-container__section__grid__test {
+    width: 286px;
+    text-align: left;
+}
+.p-main__cource-container__section__grid__test > img {
+    padding: 18px 0 0 28px;
+}
+.p-main__cource-container__section__grid__section {
+    height: 40px;
+}
+.p-main__cource-container__section__grid__qa {
+    text-align: left;
+}
+.p-main__cource-container__section__grid__qa > img {
+    padding: 12px 0 0 16px;
+}
+.p-main__coure-container__which-heading {
+    margin-top: 70px;
+}
+.p-main__coure-container__triangle {
+    margin: 50px auto;
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-right: 170px solid transparent;
+    border-left: 170px solid transparent;
+    border-top: 48px solid #45CCC4;
+    border-bottom: 0;
+}
+.p-main__coure-container__cource {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 88px;
+}
+.p-main__coure-container__cource__group {
+    text-align: center;
+    max-width: 380px;
+}
+.p-main__coure-container__cource__group__col {
+    position: relative;
+    background-color: #EB4E45;
+    height: 168px;
+}
+.p-main__coure-container__cource__group__col__logo {
+    position: absolute;
+    top: -48px;
+    right: 50%;
+    transform: translateX(50%);
+}
+.p-main__coure-container__cource__group__col__tx {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.p-main__coure-container__cource__group__col__tx__main {
+    margin-top: 15px;
+}
+.p-main__coure-container__cource__group__explain {
+    margin-top: 15px;
+}
+.p-main__coure-container__cource__group__explain__bgimg {
+    width: 280px;
+    height: 280px;
+}
+.p-main__coure-container__cource__group__explain__tx {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+
+.p-main__coure-container__cource__online {
+    text-align: center;
+    max-width: 380px;
+}
+.p-main__coure-container__cource__online__col {
+    position: relative;
+    background-color: #0158A8;
+    height: 168px;
+}
+.p-main__coure-container__cource__online__col__logo {
+    position: absolute;
+    top: -48px;
+    right: 50%;
+    transform: translateX(50%);
+}
+.p-main__coure-container__cource__online__col__tx {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+.p-main__coure-container__cource__online__col__tx__main {
+    margin-top: 15px;
+}
+.p-main__coure-container__cource__online__explain {
+    margin-top: 15px;
+}
+.p-main__coure-container__cource__online__explain__bgimg {
+    width: 280px;
+    height: 280px;
+
+}
+.p-main__coure-container__cource__online__explain__tx {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+// ======================== media-screen ======================== 
+
+@media screen and (max-width: 768px) {
+    .p-main__coure-container__start {
+        width: 96%;
+        margin: 0 auto;
+    }
+    .p-main__cource-container__curriculum {
+        font-size: 1.1rem;
+        letter-spacing: 0.05em;
+        margin-top: 40px;
+    }
+    .p-main__cource-container__section {
+        width: 100%;
+    }
+    .p-main__cource-container__section__grid {
+        margin: 0 auto;
+        border-collapse: separate;
+        border-spacing: 9px 6px;
+    }
+    .p-main__cource-container__section__grid__week {
+        height: 23px;
+    }
+    .p-main__cource-container__section__grid__week__tx > img {
+        width: 25px;
+        padding-top: 0;
+        padding-bottom: 2px;
+    }
+    .week2-3 > img {
+        width: 40px;
+        padding-bottom: 2px;
+    }
+    .p-main__cource-container__section__grid__text {
+        height: 69px;
+    }
+    .p-main__cource-container__section__grid__humanties {
+        width: 146px;
+    }
+    .p-main__cource-container__section__grid__humanties > img {
+        padding: 10px 0 0 10px;
+        width: 45px;
+    }
+    .p-main__cource-container__section__grid__science {
+        width: 146px;
+    }
+    .p-main__cource-container__section__grid__science > img {
+        padding: 10px 0 0 12px;
+        width: 45px;
+    }
+    .p-main__cource-container__section__grid__test {
+        width: 286px;
+    }
+    .p-main__cource-container__section__grid__test > img {
+        padding: 9px 0 0 10px;
+        width: 130px
+    }
+    .p-main__cource-container__section__grid__section {
+        height: 25px;
+    }
+    .p-main__cource-container__section__grid__qa {
+        text-align: left;
+    }
+    .p-main__cource-container__section__grid__qa > img {
+        padding: 0 0 0 10px;
+        width: 280px;
+    }
+    .p-main__coure-container__which-heading {
+        width: 96%;
+        margin: 35px auto 0;
+    }
+    .p-main__coure-container__triangle {
+        margin: 21px auto;
+        border-right: 90px solid transparent;
+        border-left: 90px solid transparent;
+        border-top: 27px solid #45CCC4;
+    }
+    .p-main__coure-container__cource {
+        display: block;
+        margin-top: 65px;
+    }
+    .p-main__coure-container__cource__group {
+        max-width: 85%;
+        margin: 0 auto;
+    }
+    .p-main__coure-container__cource__group__col {
+        height: 140px;
+    }
+    .p-main__coure-container__cource__group__col__logo {
+        width: 35%;
+        top: -35px;
+    }
+    .p-main__coure-container__cource__group__col__tx__sub {
+        width: 50%;
+        margin: 5px auto 0;
+    }
+    .p-main__coure-container__cource__group__col__tx__main {
+        width: 87%;
+        margin: 12px auto 0;
+    }
+    .p-main__coure-container__cource__group__explain {
+        margin-top: 19px;
+    }
+    .p-main__coure-container__cource__online {
+        max-width: 85%;
+        margin: 70px auto 0;
+    }
+    .p-main__coure-container__cource__online__col {
+        position: relative;
+        height: 140px;
+    }
+    .p-main__coure-container__cource__online__col__logo {
+        width:  28%;
+        top: -35px;
+    }
+    .p-main__coure-container__cource__online__col__tx__sub {
+        width: 38%;
+        margin: 0 auto;
+    }
+    .p-main__coure-container__cource__online__col__tx__main {
+        width: 100%;
+        margin: 12px auto 0;
+    }
+    .p-main__coure-container__cource__online__explain {
+        margin-top: 19px;
+    }
+}
+
+
+
+//--------------------- あざみな進学スクール　5つの特徴 ----------------------//
+.p-main__feature {
+    position: relative;
+    width: 100vw;
+    padding-bottom: 80px;
+    margin: 135px calc(50% - 50vw) 0;
+    background-color: #45CCC480;
+    text-align: center;
+}
+.p-main__feature__logo {
+    position: absolute;
+    left: 50%;
+    top: -70px;
+    transform: translateX(-50%);
+}
+.p-main__feature__heading {
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 100px;
+    letter-spacing: 0.04em;
+}
+.p-main__feature__contents {
+    margin-top: 50px;
+}
+.p-main__feature__contents__lavel {
+    margin: 30px auto 0;
+    display: flex;
+}
+.p-main__feature__contents__lavel__number {
+    margin-left: 45px;
+    width: 64px;
+    height: 64px;
+}
+.p-main__feature__contents__heading {
+    position: relative;
+    margin-left: 75px;
+    padding: 10px 0;
+    background: linear-gradient(transparent 70%, yellow 70%);
+    display: inline-block;
+}
+.p-main__feature__contents__lavel__bottom-arrow {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-bottom: solid 2px #000;
+    border-right: solid 2px #000;
+    transform: rotate(45deg);
+    right: 10%;
+}
+// .p-main__feature__contents__heading::after {
+//     content: '';
+//     position: absolute;
+//     width: 20px;
+//     height: 20px;
+//     border-bottom: solid 2px #000;
+//     border-right: solid 2px #000;
+//     transform: rotate(45deg);
+// }
+
+// ======================== media-screen ======================== 
+
+@media screen and (max-width: 768px) {
+    .p-main__feature {
+        margin: 70px calc(50% - 50vw) 0;
+        padding-bottom: 60px;
+    }
+    .p-main__feature__logo {
+        top: -50px;
+        width: 54%;
+    }
+    .p-main__feature__heading {
+        font-size: 19px;
+        padding-top: 87px;
+    }
+    .p-main__feature__contents__lavel {
+        margin: 10px auto 0;
+    }
+    .p-main__feature__contents__lavel__number {
+        margin-left: 20px;
+        width: 26px;
+        height: 26px;
+    }
+    .p-main__feature__contents__lavel__number > img {
+        width: 30%;
+    }
+    .p-main__feature__contents__heading {
+        margin-left: 30px;
+        width: 110px;
+        padding: 7px 0 5px;
+        margin-bottom: 10px;
+        background: linear-gradient(transparent 70%, yellow 20%);
+    }
+    .p-main__feature__contents__lavel__bottom-arrow {
+        width: 9px;
+        height: 9px;
+        border-bottom: solid 1px #000;
+        border-right: solid 1px #000;
+        right: 10%;
+    }
+}
+// ----------------------------- 豊富なカリキュラム -----------------------------
+.p-main__curriculum-contents {
+    margin-top: 50px;
+}
+.p-main__curriculum-contents__lavel__number {
+    margin-left: 160px;
+    width: 64px;
+    height: 64px;
+}
+.p-main__curriculum-contents__heading {
+    margin-left: 55px;
+}
+.p-main__curriculum-contents__tx {
+    text-align: center;
+    margin: 40px auto 0;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.p-main__curriculum-contents__basic {
+    margin: 35px auto 0;
+}
+.p-main__curriculum-contents__basic__img {
+    width: 100%;
+    margin-top: 10px;
+}
+.p-main__curriculum-contents__basic__tx {
+    font-size: 12px;
+    text-align: left;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.p-main__curriculum-contents__flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.p-main__curriculum-contents__flexbox__thema__tx {
+    font-size: 12px;
+    padding: 10px 20px;
+    text-align: left;
+    line-height: 20px;
+}
+.p-main__curriculum-contents__flexbox__college__tx {
+    font-size: 12px;
+    padding: 10px 20px;
+    text-align: left;
+    line-height: 20px;
+}
+.p-main__curriculum-contents__others-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.p-main__curriculum-contents__others-link__tx {
+    border-bottom: solid 1px #000;
+}
+.p-main__curriculum-contents__others-link__arrow {
+    width: 8px;
+    height: 8px;
+    margin-left: 10px;
+}
+.p-main__curriculum-contents__introduction {
+    background-color: #ECFCFB;
+    width: 100vw;
+    padding: 40px 0;
+    margin: 42px calc(50% - 50vw) 0;
+    text-align: center;
+}
+.p-main__curriculum-contents__introduction__flexbox {
+    position: relative;
+    max-width: 840px;
+    margin: 40px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.p-main__curriculum-contents__introduction__flexbox__caution {
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    right: 95px;
+}
+.p-main__curriculum-contents__introduction__flexbox__caution > img {
+    display: block;
+    margin: 5px auto 0;
+}
+.p-main__curriculum-contents__introduction__container {
+    position: relative;
+    text-align: left;
+    width: 23%;
+    height: 200px;
+    background-color: #ffffff;
+}
+.p-main__curriculum-contents__introduction__container__heading {
+    position: absolute;
+    width: 140px;
+    height: 30px;
+    background-color: #EB4E45;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p-main__curriculum-contents__introduction__container__tx {
+    margin-top: 45px;
+    margin-left: 50px;
+}
+.p-main__curriculum-contents__introduction__container__common-college {
+    margin: 40px 0 50px 50px;
+    margin-left: 50px;
+}
+.p-main__curriculum-contents__introduction__container__common-test {
+    margin: 40px 0 50px 43px;
+}
+.p-main__curriculum-contents__introduction__container__tx--college {
+    margin-left: 50px;
+}
+.p-main__curriculum-contents__introduction__container__tx--test {
+    margin-left: 43px;
+}
+.p-main__curriculum-contents__introduction__media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 840px;
+    margin: 23px auto 0;
+}
+.p-main__curriculum-contents__introduction__media__img {
+    width: 260px;
+}
+.p-main__curriculum-contents__introduction__media__column {
+    text-align: left;
+}
+.p-main__curriculum-contents__introduction__media__column__heading {
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.p-main__curriculum-contents__introduction__media__column__tx {
+    margin-top: 15px;
+    line-height: 1.8;
+}
+.p-main__curriculum-contents__introduction__media__column__tx__line {
+    font-weight: bold;
+    background: #FFFF00;
+}
+
+
+// ======================== media-screen ======================== 
+
+@media screen and (max-width: 768px) {
+
+    .p-main__curriculum-contents__lavel__number {
+        margin-left: 75px;
+        width: 35px;
+        height: 35px;
+    }
+    .p-main__curriculum-contents__lavel__number > img {
+        width: 25%;
+    }
+    .p-main__curriculum-contents__heading {
+        margin-left: 15px;
+        width: 40%;
+    }
+    .p-main__curriculum-contents__tx {
+        text-align: left;
+        width: 96.5%;
+    }
+    .p-main__curriculum-contents__basic {
+        margin: 35px auto 0;
+    }
+    .p-main__curriculum-contents__basic__img {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .p-main__curriculum-contents__basic__tx {
+        font-size: 12px;
+        text-align: left;
+        margin-top: 10px;
+        line-height: 20px;
+    }
+    .p-main__curriculum-contents__flexbox {
+        display: block;
+        margin-top: 38px;
+    }
+    .p-main__curriculum-contents__flexbox__thema {
+        margin: 0 auto;
+    }
+    .p-main__curriculum-contents__flexbox__college {
+        margin: 25px auto 0;
+    }
+    .p-main__curriculum-contents__introduction__heading {
+        width: 90%;
+    }
+    .p-main__curriculum-contents__introduction__flexbox {
+        max-width: 90%;
+        margin: 40px auto 0;
+        gap: 45px 0;
+    }
+    .p-main__curriculum-contents__introduction__flexbox__caution {
+        top: 70%;
+        left: 1%;
+        width: 100%;
+    }
+    .p-main__curriculum-contents__introduction__flexbox__caution > img {
+        display: block;
+        margin: 5px auto 0;
+    }
+    .p-main__curriculum-contents__introduction__flexbox__caution > img:first-child {
+        width: 52%;
+    }
+    .p-main__curriculum-contents__introduction__flexbox__caution > img:last-child {
+        width:  100px;
+    }
+    .p-main__curriculum-contents__introduction__container {
+        width: 48%;
+        height: 170px;
+    }
+    .p-main__curriculum-contents__introduction__container__heading {
+        width: 68%;
+        height: 25px;
+    }
+    .p-main__curriculum-contents__introduction__container__tx {
+        margin: 0;
+        padding: 35px 0 0 25%;
+    }
+    .basic {
+        width: 58%;
+    }
+    .thema {
+        width: 70%;
+    }
+    .p-main__curriculum-contents__introduction__container__common-college {
+        width: 78%;
+        margin: 0;
+        padding: 35px 0 0 25%;
+    }
+    .p-main__curriculum-contents__introduction__container__tx--college {
+        margin: 0;
+        padding: 42px 0 0 25%;
+        width: 65%;
+    }
+    .p-main__curriculum-contents__introduction__container__common-test {
+        width: 72%;
+        margin: 0;
+        padding: 35px 0 0 21%;
+    }
+    .p-main__curriculum-contents__introduction__container__tx--test {
+        margin: 0;
+        padding: 42px 0 0 21%;
+        width: 65%;
+    }
+
+
+
+    .p-main__curriculum-contents__introduction__media {
+        display: block;
+        width: 93%;
+        margin: 35px auto 0;
+    }
+    .p-main__curriculum-contents__introduction__media__img {
+        width: 95%;
+    }
+    .p-main__curriculum-contents__introduction__media__column {
+        text-align: left;
+        width: 96%;
+        margin:  22px auto 0;
+    }
+    .p-main__curriculum-contents__introduction__media__column__heading {
+        font-size: 1.1em;
+        font-weight: bold;
+    
+    }
+    .p-main__curriculum-contents__introduction__media__column__tx {
+        margin-top: 10px;
+        line-height: 1.8;
+        text-align: justify;
+    }
+}
+
+
+
+// ----------------------------- 受験生の満足度100% -----------------------------
+
+.p-main__voice {
+    margin-top: 50px;
+    text-align: center;
+}
+.p-main__voice__lavel__number {
+    margin-left: 160px;
+    width: 64px;
+    height: 64px;
+}
+.p-main__voice__heading {
+    margin-left: 45px;
+}
+.p-main__voice__tx {
+    margin-top: 20px;
+    line-height: 1.8;
+}
+.p-main__voice__img {
+    width: 100vw;
+    height: 600px;
+    margin: 35px calc(50% - 50vw) 0;
+    text-align: center;
+}
+
+
+// ======================== media-screen ======================== 
+
+@media screen and (max-width: 768px) {
+    .p-main__voice {
+        margin-top: 46px;
+    }
+    .p-main__voice__lavel__number {
+        margin-left: 69px;
+        width: 35px;
+        height: 35px;
+    }
+    .p-main__voice__lavel__number > img {
+        width: 25%;
+    }
+    .p-main__voice__heading {
+        margin-left: 18px;
+        width: 43%;
+    }
+    .p-main__voice__tx {
+        text-align: left;
+        width: 95%;
+        margin: 20px auto;
+        text-align: justify;
+    }
+    .p-main__voice__img {
+        height: 51vh;
+    }
+    .p-main__voice__img > img{
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+// ----------------------------- 講師は実力派ぞろい -----------------------------
+
+.p-main__instructor {
+    margin-top: 50px;
+    text-align: center;
+}
+.p-main__instructor__lavel__number {
+    margin-left: 160px;
+    width: 64px;
+    height: 64px;
+}
+.p-main__instructor__heading {
+    margin-left: 55px;
+}
+.p-main__instructor__tx {
+    margin-top: 20px;
+    line-height: 1.8;
+}
+.p-main__instructor__small-heading {
+    margin-top: 30px;
+}
+.p-main__instructor__introduction {
+    margin-top: 28px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.p-main__instructor__introduction__card {
+    height: 156px;
+    background-color: #F5F5F5;
+    text-align: left;
+    padding-left: 20px;
+}
+.p-main__instructor__introduction__card__subject {
+    display: inline-block;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #333333;
+    margin-top: 20px;
+    padding: 1px 8px;
+}
+.p-main__instructor__introduction__card__name {
+    display: block;
+    margin-top: 10px;
+}
+.p-main__instructor__introduction__card__comment {
+    margin-top: 10px;
+    line-height: 1.7;
+}
+.p-main__instructor__others-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.p-main__instructor__others-link__tx {
+    border-bottom: solid 1px #000;
+}
+.p-main__instructor_others-link__arrow {
+    width: 8px;
+    height: 8px;
+    margin-left: 10px;
+}
+.p-main__instructor__tx {
+    text-align: left;
+    width: 95%;
+    margin: 20px auto;
+    text-align: justify;
+}
+
+// ======================== media-screen ======================== 
+
+@media screen and (max-width: 768px) {
+    .p-main__instructor {
+        margin-top: 46px;
+    }
+    .p-main__instructor__lavel__number {
+        margin-left: 69px;
+        width: 35px;
+        height: 35px;
+    }
+    .p-main__instructor__lavel__number > img {
+        width: 25%;
+    }
+    .p-main__instructor__heading {
+        margin-left: 18px;
+        width: 43%;
+    }
+    .p-main__instructor__introduction {
+        margin-top: 28px;
+        display: block;
+    }
+    .p-main__instructor__introduction__card {
+        height: 156px;
+        padding-left: 0;
+        padding: 0 20px;
+    }
+    .p-main__instructor__introduction__card:not(:first-child) {
+        margin-top: 30px;
+    }
+    .p-main__instructor__introduction__card__comment {
+        margin-top: 10px;
+        line-height: 1.7;
+    }
+}
+
+
+// ----------------------------- 圧倒的な合格率の高さ -----------------------------
+
+.p-main__pass-rate {
+    margin-top: 50px;
+    text-align: center;
+}
+.p-main__pass-rate__lavel__number {
+    margin-left: 150px;
+    width: 64px;
+    height: 64px;
+}
+.p-main__pass-rate__heading {
+    margin-left: 50px;
+}
+.p-main__pass-rate__tx {
+    margin-top: 20px;
+    line-height: 1.8;
+}
+.p-main__pass-rate__contents {
+    margin-top: 30px;
+}
+.p-main__pass-rate__contents__graph {
+    max-width:600px;
+    margin: 0 auto;
+}
+.p-main__pass-rate__contents__flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 165px 0 150px;
+}
+.p-main__pass-rate__contents__flexbox__tx {
+    padding: 0 10px 10px;
+    background: linear-gradient(transparent 50%, yellow 70%);
+}
+.p-main__pass-rate__contents__flexbox__tx__value {
+    margin-left: 15px;
+}
+.p-main__pass-rate__contents__flexbox__tx__symbol {
+    margin-left: 5px;
+}
+.p-main__pass-rate__students-voice {
+    margin-top: 60px;
+}
+.p-main__pass-rate__students-voice__flexbox {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.p-main__pass-rate__students-voice__flexbox__card {
+    background-image: url(/sozai/img/diagonal-line.svg);
+    max-width: 400px;
+    height: 401px;
+}
+.p-main__pass-rate__students-voice__flexbox__card__container {
+    padding: 40px ;
+    text-align: center;
+}
+.p-main__pass-rate__students-voice__flexbox__card__container__img {
+    display: block;
+    margin: 0 auto;
+    max-width: 180px;
+    max-height: 180px;
+}
+.p-main__pass-rate__students-voice__flexbox__card__container__name {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 16px;
+    padding: 3px 15px;
+    background-color: #ffffff;
+}
+.p-main__pass-rate__students-voice__flexbox__card__container__tx {
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 2;
+    text-align: left;
+}
+
+// ======================== media-screen ======================== 
+
+@media screen and (max-width: 768px) {
+    .p-main__pass-rate__lavel__number {
+        margin-left: 69px;
+        width: 35px;
+        height: 35px;
+    }
+    .p-main__pass-rate__lavel__number > img {
+        width: 25%;
+    }
+    .p-main__pass-rate__heading {
+        margin-left: 18px;
+        width: 43%;
+    }
+    .p-main__pass-rate__tx {
+        text-align: left;
+        width: 95%;
+        margin: 20px auto;
+        text-align: justify;
+    }
+    .p-main__pass-rate__contents__flexbox {
+        margin: 40px auto 0;
+        gap: 0 20px;
+        justify-content: center;
+    }
+    .p-main__pass-rate__contents__flexbox__tx {
+        padding: 0;
+        padding-bottom: 5px;
+        width: 40%;
+    }
+    .p-main__pass-rate__contents__flexbox__tx__value {
+        margin-left: 0;
+    }
+    .p-main__pass-rate__contents__flexbox__tx__symbol {
+        margin-left: 0;
+    }
+    .p-main__pass-rate__contents__flexbox__tx__small > img {
+        width: 30%;
+    }
+    .p-main__pass-rate__contents__flexbox__tx__value > img {
+        width: 40%;
+    }
+    .p-main__pass-rate__contents__flexbox__tx__symbol > img {
+        width: 15%;
+    }
+    .p-main__pass-rate__students-voice__flexbox {
+        display: block;
+    }
+    .p-main__pass-rate__students-voice__flexbox__card {
+        margin:  0 auto;
+    }
+    .p-main__pass-rate__students-voice__flexbox__card:last-child {
+        margin-top: 30px;
+    }
+}
+
+
+// ----------------------------- 講習後も万全のフォロー -----------------------------
+
+.p-main__follow {
+    margin-top: 50px;
+    text-align: center;
+}
+.p-main__follow__lavel__number {
+    margin-left: 140px;
+    width: 64px;
+    height: 64px;
+}
+.p-main__follow__heading {
+    margin-left: 45px;
+}
+.p-main__follow__tx {
+    margin-top: 20px;
+    line-height: 1.8;
+}
+.p-main__follow__support {
+background-color: #ECFCFB;
+width: 100vw;
+height: 324px;
+margin: 35px calc(50% - 50vw) 0;
+text-align: center;
+padding-top: 40px;
+}
+.p-main__follow__support__contents {
+    max-width: 840px;
+    margin: 30px auto 0;
+}
+.p-main__follow__support__contents__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px 0;
+    text-align: left;
+    margin-left: 100px;
+}
+.p-main__follow__support__contents__container__list {
+    font-size: 16px;
+    font-weight: bold;
+}
+.p-main__follow__support__contents__container__list::before {
+    content: '';
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background: #45CCC4;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.p-main__follow__support__comment {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    line-height: 1.8;
+}
+.p-main__follow__img {
+    margin-top: 55px;
+}
+.p-main__follow__fin {
+    padding-top: 50px;
+}
+.p-main__follow__fin__title {
+    font-size: 17px;
+}
+.p-main__follow__fin__tx {
+    margin-top: 20px;
+    line-height: 1.8;
+}
+.p-main__follow__fin__tx__line {
+    font-weight: bold;
+    background: #FFFF00;
+}
+
+// ======================== media-screen ======================== 
+
+@media screen and (max-width: 768px) {
+    .p-main__follow__lavel__number {
+        margin-left: 69px;
+        width: 35px;
+        height: 35px;
+    }
+    .p-main__follow__lavel__number > img {
+        width: 25%;
+    }
+    .p-main__follow__heading {
+        margin-left: 18px;
+        width: 43%;
+    }
+    .p-main__follow__tx {
+        text-align: left;
+        width: 95%;
+        margin: 20px auto;
+        text-align: justify;
+    }
+    .p-main__follow__support {
+        width: 100vw;
+        height: 100%;
+        padding-bottom: 50px;
+        }
+    .p-main__follow__support__contents {
+        margin: 30px auto 0;
+    }
+    .p-main__follow__support__contents__container {
+        margin-left: 5%;
+    }
+    .p-main__follow__support__contents__container__list {
+        font-size: 12px;
+    }
+    .p-main__follow__support__contents__container__list::before {
+        content: '';
+        width: 8px;
+        height: 8px;
+    }
+    .p-main__follow__support__comment {
+        font-size: 14px;
+    }
+}

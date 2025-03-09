@@ -1,0 +1,104 @@
+
+.p-header__container-img {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    // background-image: url(/sozai/img/mv-pc.jpg);
+}
+.p-header__mv__img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 800px;
+    object-fit: cover;
+}
+.p-header__maintext {
+    position: absolute;
+    top: 25px;
+    left: 45px;
+}
+.p-header__maintext__heading {
+    margin-top: 85px;
+}
+.p-header__circle {
+    position: absolute;
+    right: 28px;
+    bottom: -25px;
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    background-color: #E6B422;
+    background: linear-gradient(#E6B422, #F6DD93);
+    text-align: center;
+}
+.p-header__circle__box {
+    margin-top: 63px;
+}
+.p-header__circle__level {
+    margin: 0 auto;
+}
+.p-header__circle__flexbox {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-top: 25px;
+}
+.p-header__circle__flexbox__percent {
+    // transform: translateX(10px);
+    transform: translate(10px, -5px);
+}
+.p-header__circle__note {
+    margin: 30px auto 0;
+}
+
+
+// ======================== media-screen ======================== 
+
+@media screen and (max-width: 768px) {
+    .p-header__container-img {
+        position: relative;
+        height: 64vh;
+    }
+    .p-header__mv__img {
+        height: 64vh;
+    }
+    .p-header__maintext {
+        position: absolute;
+        top: 22px;
+        left: 20px;
+    }
+    .p-header__maintext__heading {
+        margin-top: 35px;
+        width: 56%;
+    }
+    .p-header__circle {
+        right: 15px;
+        bottom: -48px;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+    }
+    .p-header__circle__box {
+        margin-top: 40px;
+    }
+    .p-header__circle__level {
+        width: 40%;
+    }
+    .p-header__circle__flexbox {
+        margin-top: 15px;
+    }
+    .p-header__circle__flexbox__100 {
+        width: 45%;
+    }
+    .p-header__circle__flexbox__percent {
+        // transform: translateX(10px);
+        transform: translate(5px, -3px);
+        width: 15%;
+    }
+    .p-header__circle__note {
+        margin-top: 18px;
+        width: 51%;
+    }
+    
+    }

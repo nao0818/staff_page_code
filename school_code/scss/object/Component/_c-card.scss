@@ -1,0 +1,12 @@
+.c-card {
+    width: 45%;
+    text-align: center;
+}
+
+// ======================== media-screen ======================== 
+
+@media screen and (max-width: 768px) {
+    .c-card {
+        width: 95%;
+    }
+}

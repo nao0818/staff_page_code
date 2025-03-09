@@ -1,0 +1,12 @@
+.c-number-radius {
+    position: relative;
+    border-radius: 50%;
+    background-color: #333333;
+    border: solid 1px #707070;
+}
+.c-number-radius__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

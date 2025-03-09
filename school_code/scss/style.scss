@@ -1,0 +1,49 @@
+// ------------------------------------------------
+// Foundation scss
+// ----------------
+
+@use './Foundation/base';
+@use './Foundation/reset';
+// ------------------------------------------------
+
+// ------------------------------------------------
+// Layout scss
+// ----------------
+
+@use './layout/l-header';
+@use './layout/l-main';
+@use './layout/l-footer.scss';
+
+
+// ------------------------------------------------
+// Object scss
+// ----------------
+
+// Component scss-------------------------------------
+
+@use './object/Component/c-cource__grid';
+@use './object/Component/c-radius';
+@use './object/Component/c-number-radius';
+@use './object/Component/c-card';
+@use './object/Component/c-card__heading';
+@use './object/Component/c-main__contents__lavel';
+@use './object/Component/c-main__feature__lavel';
+@use './object/Component/c-small__heading';
+@use './object/Component/c-right__arrow.scss';
+
+// Project scss-------------------------------------
+
+@use './object/Project/p-header';
+@use './object/Project/p-main';
+@use './object/Project/p-footer';
+
+// Utility scss-------------------------------------
+@use './object/Utility/u-display__none';
+
+
+// ------------------------------------------------
+// JS scss
+// ----------------
+@use './js/js-header';
+@use './js/js-slide';
+@use './js/js-contents_slide';

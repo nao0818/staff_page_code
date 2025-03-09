@@ -1,0 +1,12 @@
+.l-main {
+    max-width: 840px;
+    margin: 90px auto 160px;
+}
+// ======================== media-screen ======================== 
+
+@media screen and (max-width: 768px) {
+    .l-main {
+        max-width: 93%;
+        margin: 70px auto 140px;
+    }
+}
